@@ -1,8 +1,8 @@
 namespace SmartTradeFrontend
 {
-    public partial class Form1 : Form
+    public partial class SmartTrade : Form
     {
-        public Form1()
+        public SmartTrade()
         {
             InitializeComponent();
         }

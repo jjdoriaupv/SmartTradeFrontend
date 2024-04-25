@@ -1,6 +1,6 @@
 ﻿namespace SmartTradeFrontend
 {
-    partial class Form1
+    partial class SmartTrade
     {
         /// <summary>
         ///  Required designer variable.
