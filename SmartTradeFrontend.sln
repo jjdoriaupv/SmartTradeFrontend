@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTradeFrontend", "SmartTradeFrontend.csproj", "{6F5DE22C-D408-4296-9E5C-8A1E76B4C670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F5DE22C-D408-4296-9E5C-8A1E76B4C670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5DE22C-D408-4296-9E5C-8A1E76B4C670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5DE22C-D408-4296-9E5C-8A1E76B4C670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5DE22C-D408-4296-9E5C-8A1E76B4C670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AC70F2E-CC9F-4104-9B86-B29E3DE5F10C}
+	EndGlobalSection
+EndGlobal
