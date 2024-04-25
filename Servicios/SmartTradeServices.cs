@@ -14,7 +14,6 @@ namespace SmartTradeFrontend.Servicios
 
         }
 
-        //PaginaPrincipal
         private PaginaPrincipalController pagPrin = new PaginaPrincipalController();
 
         public async Task<List<Producto>> Tendencias()

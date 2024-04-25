@@ -8,7 +8,7 @@ namespace SmartTradeFrontend
         {
             SmartTradeServices servicio = new SmartTradeServices();
             ApplicationConfiguration.Initialize();
-            Application.Run(new SmartTrade(servicio));
+            Application.Run(new PaginaPrincipal(servicio));
         }
     }
 }

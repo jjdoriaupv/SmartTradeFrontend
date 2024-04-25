@@ -1,6 +1,6 @@
 ﻿namespace SmartTradeFrontend
 {
-    partial class SmartTrade
+    partial class PaginaPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,19 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            tendencias = new ListView();
             SuspendLayout();
             // 
-            // SmartTrade
+            // tendencias
+            // 
+            tendencias.Location = new Point(12, 12);
+            tendencias.Name = "tendencias";
+            tendencias.Size = new Size(121, 97);
+            tendencias.TabIndex = 0;
+            tendencias.UseCompatibleStateImageBehavior = false;
+            // 
+            // PaginaPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Name = "SmartTrade";
+            Controls.Add(tendencias);
+            Name = "PaginaPrincipal";
             Text = "SmartTrade";
             Load += SmartTrade_Load;
             ResumeLayout(false);
         }
 
         #endregion
+
+        private ListView tendencias;
     }
 }
